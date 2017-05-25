@@ -9,7 +9,7 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
-    background-image: url(images/cork-wallet.png);
+    background-image: url(/images/cork-wallet.png);
     margin: auto;
     overflow-x: hidden;
 }
@@ -136,22 +136,14 @@ footer {
 /* contact.html*/
 .contact  #contact {
     background-color: white;
-    margin: 40px 0;
-    width: 595px;
-    height: 550px;
-    position: absolute;
     border: solid 1px #CCC;
-    padding-right: 50px;
-    padding-bottom: 20px;
-    margin-bottom: 110px;
+    
     }
 
 
 .contact section hr {
-    background-color: #CCC;
     width: 95%;
     height: 2px;
-    border: none;
     margin-bottom: 20px;
     
 }
@@ -159,27 +151,18 @@ footer {
 .contact section h1 {
     font-size: 30px;
     color: #4aaaa5;
-    width: 150px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif; 
-    padding-bottom: 0;
-    margin-bottom: 20px;
 }
 
 .contact form {
     float: left;
-    width: 495px;
-    padding-left: 20px;
     
 }
 
 .contact input[type=text], input[type=email], textarea {
-    width: 100%;
-    padding: 12px;
     border: 1px solid #CCC;
     box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
     resize: vertical;
 }
 
@@ -209,14 +192,9 @@ footer {
 
 .portfolio  #portfolio  {
     background-color: white;
-    margin: 40px 0;
-    width: 595px;
-    height: 620px;
-    position: absolute;
     border: solid 1px #CCC;
-    padding-right: 50px;
-    padding-bottom: 20px;
-    margin-bottom: 100px;
+    height: 1000px;
+
     }
 
 
@@ -232,7 +210,6 @@ footer {
 .portfolio  section h1 {
     font-size: 30px;
     color: #4aaaa5;
-    width: 150px;
     text-align: center;
     font-family: 'Georgia', Times, Times New Roman, serif; 
     padding-bottom: 0;
@@ -242,22 +219,13 @@ footer {
 
 .portfolio #first .project001 {
     position: relative;
-    margin-left: 20px;
     float: left;
     border: 2px solid #777;
-    margin-bottom: 15px;
-}
-
-.portfolio #first .project001 img {
-    width: 278px;
-    height: 155px;
-    background-color: black;
+    
 }
 
 .portfolio #first .project001 h2 {
     position: absolute;
-    top: 111px;
-    width: 100%;
     text-align: center;
     background-color: #4aaaa5;
     color: white;  
@@ -271,10 +239,7 @@ footer {
     margin-bottom: 15px;
 }
 
-.portfolio #first .project002 img {
-    width: 279px;
-    height: 154px;
-}
+
 
 .portfolio #first .project002 h2 {
     position: absolute;
@@ -295,15 +260,9 @@ footer {
     margin-bottom: 15px;
 }
 
-.portfolio #second .project001 img {
-    width: 278px;
-    height: 154px;
-}
 
 .portfolio #second .project001 h2 {
     position: absolute;
-    top: 110px;
-    width: 100%;
     text-align: center;
     background-color: #4aaaa5;
     color: white;  
@@ -316,10 +275,6 @@ footer {
     border: 2px solid #777;
 }
 
-.portfolio #second .project002 img {
-    width: 279px;
-    height: 154px;
-}
 
 .portfolio #second .project002 h2 {
     position: absolute;
@@ -333,20 +288,16 @@ footer {
 /* Third */
 
 .portfolio #third .project001 {
-    height: 159px;
+    position: relative;
     margin-left: 20px;
     float: left;
     border: 2px solid #777;
+    margin-bottom: 15px;
 }
 
-.portfolio #third .project001 img {
-    width: 278px;
-}
 
 .portfolio #third .project001 h2 {
-    position: relative;
-    top: -35px;
-    width: 100%;
+    position: absolute;
     text-align: center;
     background-color: #4aaaa5;
     color: white;  
@@ -359,10 +310,6 @@ footer {
     border: 2px solid #777;
 }
 
-.portfolio #third .project002 img {
-    width: 279px;
-    height: 154px;
-}
 
 .portfolio #third .project002 h2 {
     position: absolute;
@@ -372,14 +319,6 @@ footer {
     background-color: #4aaaa5;
     color: white;  
 }
-
-.portfolio footer {
-    height: 30px;
-    padding-bottom: 10px;
-    
-}
-
-
 /* END portfolio.html*/
 
 
@@ -492,19 +431,136 @@ footer {
     /* ************************************************************************************************ */
     
     /* contact.html */
+    .contact #contact {
+        width: 595px;
+        height: 550px;
+        position: absolute;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        margin-bottom: 110px;
+    }
     
+    .contact section hr {
+        width: 95%;
+        height: 2px;
+        margin-bottom: 20px;
+    }
     
+    .contact section h1 {
+        width: 150px;
+        padding-bottom: 0;
+        margin-bottom: 20px;
+    }
     
+    .contact form {
+        width: 495px;
+        padding-left: 20px;
+    }
+    
+    .contact input[type=text], input[type=email], textarea {
+        width: 100%;
+        padding: 12px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
     
     
     /* END contact.html */
     
+    
+    
+    
     /* ************************************************************************************************ */
     
-    /* profile.html*/
+    /* portfolio.html*/
+    
+    .portfolio  #portfolio {
+        width: 595px;
+        height: 620px;
+        position: absolute;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        margin-bottom: 120px;
+    }
+    
+    .portfolio section h1 {
+        width: 150px;
+    }
+    
+    /* First ROW PROJECTS*/
+    
+    .portfolio #first .project001 {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .portfolio #first .project001 img {
+        width: 278px;
+        height: 155px;
+    }
+    
+    .portfolio #first .project001 h2 {
+        top: 111px;
+        width: 100%;
+    }
+    
+    .portfolio #first .project002 img {
+        width: 279px;
+        height: 154px;
+    }
+    
+    /* END FIRST ROW PROJECTS */
     
     
     
+    /* SECOND ROW PROJECTS*/
+    
+    .portfolio #second .project001 {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .portfolio #second  .project001 img {
+        width: 278px;
+        height: 155px;
+    }
+    
+    .portfolio #second  .project001 h2 {
+        top: 111px;
+        width: 100%;
+    }
+    
+    .portfolio #second  .project002 img {
+        width: 279px;
+        height: 154px;
+    }
+    
+    /* END SECOND ROW PROJECTS */
+    
+    
+    /* THIRD ROW PROJECTS */
+    
+    .portfolio #third .project001 {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .portfolio #third .project001 img {
+        width: 278px;
+        height: 155px;
+    }
+    
+    .portfolio #third .project001 h2 {
+        top: 111px;
+        width: 100%;
+    }
+    
+    .portfolio #third .project002 img {
+        width: 279px;
+        height: 154px;
+    }
+    
+    /* END THIRD ROW PROJECTS */
     
     
     
@@ -619,7 +675,39 @@ footer {
     /* ************************************************************************************************ */
     
     /* contact.html */
+    .contact #contact {
+        width: 400px;
+        height: 540px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        float: left;
+        position: absolute;
+        margin-bottom: 130px;
+    }
     
+    .contact section hr {
+        width: 95%;
+        height: 2px;
+        margin-bottom: 20px;
+    }
+    
+    .contact section h1 {
+        width: 150px;
+        padding-bottom: 0;
+        margin-bottom: 20px;
+    }
+    
+    .contact form {
+        width: 400px;
+        padding-left: 20px;
+    }
+    
+    .contact input[type=text], input[type=email], textarea {
+        width: 100%;
+        padding: 12px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
     
     
     
@@ -628,11 +716,154 @@ footer {
     
     /* ************************************************************************************************ */
     
-    /* profile.html*/
+    /* portfolio.html*/
+    .portfolio #links {
+        width: 100%;
+    }
+    .portfolio #links li{
+        right: 65px;
+    }
+    .portfolio  #portfolio {
+        width: 40%;
+        height: 1610px;
+        position: absolute;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        margin-bottom: 120px;
+    }
+    
+    .portfolio section h1 {
+        width: 150px;
+    }
+    
+    /* First ROW PROJECTS*/
+    
+    .portfolio #first .project001 {
+        margin-left: 20px;
+        margin-bottom: 15px;
+        float: none;
+        width: 100%;
+    }
+    
+    .portfolio #first .project001 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #first .project001 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    
+    .portfolio #first .project002 {
+        width: 100%;
+        float: none;
+        margin-left: 20px;
+        
+    }
+    
+    .portfolio #first .project002 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #first .project002 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    
+    /* END FIRST ROW PROJECTS */
     
     
     
+    /* SECOND ROW PROJECTS*/
     
+    .portfolio #second .project001 {
+        margin-left: 20px;
+        margin-bottom: 15px;
+        float: none;
+        width: 100%;
+    }
+    
+    .portfolio #second .project001 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #second .project001 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    
+    .portfolio #second .project002 {
+        width: 100%;
+        float: none;
+        margin-left: 20px;
+        
+    }
+    
+    .portfolio #second .project002 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #second .project002 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    /* END SECOND ROW PROJECTS */
+    
+    
+    /* THIRD ROW PROJECTS */
+    
+    .portfolio #third .project001 {
+        margin-left: 20px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        float: none;
+        width: 100%;
+    }
+    
+    .portfolio #third .project001 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #third .project001 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    
+    .portfolio #third .project002 {
+        width: 100%;
+        float: none;
+        margin-left: 20px;
+        
+    }
+    
+    .portfolio #third .project002 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #third .project002 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    
+    /* END THIRD ROW PROJECTS */
     
     
     /* END profile.html */
@@ -716,7 +947,6 @@ footer {
         margin-top: 40px;
         padding-top: 10px;
         
-
     }
     
     
@@ -757,22 +987,209 @@ footer {
     
     /* contact.html */
     
+    .contact #contact {
+        width: 90%;
+        height: 540px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        float: none;
+        margin-bottom: 40px;
     
+    }
     
+    .contact section hr {
+        width: 95%;
+        height: 2px;
+        margin-bottom: 20px;
+        margin-left: 8%;
+    }
+    
+    .contact section h1 {
+        width: 150px;
+        padding-bottom: 0;
+        margin-bottom: 20px;
+        margin-left: 5%;
+    }
+    
+    .contact form {
+        width: 95%;
+        padding-left: 20px;
+        margin-left: 4%;
+    }
+    
+    .contact input[type=text], input[type=email], textarea {
+        width: 100%;
+        padding: 12px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
+    
+    .contact #connect {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin: auto;
+        
+    }
     
     
     /* END contact.html */
     
-    /* ************************************************************************************************ */
+     /* ************************************************************************************************ */
     
-    /* profile.html*/
+    /* portfolio.html*/
+    .portfolio #container{
+        height: 1860px;
+    }
+    
+    .portfolio #links {
+        width: 100%;
+    }
+    .portfolio #links li{
+        right: 65px;
+    }
+    
+    .portfolio  #portfolio {
+        width: 90%;
+        height: 1610px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        margin-bottom: 40px;
+        float: none;
+    }
+    
+    .portfolio section h1 {
+        width: 150px;
+    }
+    
+    /* First ROW PROJECTS*/
+    
+    .portfolio #first .project001 {
+        margin-left: 20px;
+        margin-bottom: 15px;
+        float: none;
+        width: 100%;
+    }
+    
+    .portfolio #first .project001 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #first .project001 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    
+    .portfolio #first .project002 {
+        width: 100%;
+        float: none;
+        margin-left: 20px;
+        
+    }
+    
+    .portfolio #first .project002 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #first .project002 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    
+    /* END FIRST ROW PROJECTS */
     
     
     
+    /* SECOND ROW PROJECTS*/
+    
+    .portfolio #second .project001 {
+        margin-left: 20px;
+        margin-bottom: 15px;
+        float: none;
+        width: 100%;
+    }
+    
+    .portfolio #second .project001 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #second .project001 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    
+    .portfolio #second .project002 {
+        width: 100%;
+        float: none;
+        margin-left: 20px;
+        
+    }
+    
+    .portfolio #second .project002 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #second .project002 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    /* END SECOND ROW PROJECTS */
     
     
+    /* THIRD ROW PROJECTS */
     
-    /* END profile.html */
+    .portfolio #third .project001 {
+        margin-left: 20px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        float: none;
+        width: 100%;
+    }
+    
+    .portfolio #third .project001 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #third .project001 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    
+    .portfolio #third .project002 {
+        width: 100%;
+        float: none;
+        margin-left: 20px;
+        
+    }
+    
+    .portfolio #third .project002 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #third .project002 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    
+    /* END THIRD ROW PROJECTS */
     
 }
 
@@ -892,7 +1309,50 @@ footer {
     
     /* contact.html */
     
+    .contact #contact {
+        width: 90%;
+        height: 540px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        float: none;
+        margin-bottom: 40px;
     
+    }
+    
+    .contact section hr {
+        width: 95%;
+        height: 2px;
+        margin-bottom: 20px;
+        margin-left: 8%;
+    }
+    
+    .contact section h1 {
+        width: 150px;
+        padding-bottom: 0;
+        margin-bottom: 20px;
+        margin-left: 5%;
+    }
+    
+    .contact form {
+        width: 95%;
+        padding-left: 20px;
+        margin-left: 4%;
+    }
+    
+    .contact input[type=text], input[type=email], textarea {
+        width: 100%;
+        padding: 12px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
+    
+    .contact #connect {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin: auto;
+        
+    }
     
     
     
@@ -900,14 +1360,115 @@ footer {
     
     /* ************************************************************************************************ */
     
-    /* profile.html*/
+    /* portfolio.html*/
+    .portfolio #container {
+        width: 90%;
+        height: 880px;
+    }
+    
+    .portfolio #links {
+        width: 100%;
+    }
+    .portfolio #links li{
+        right: 65px;
+    }
+    .portfolio  #portfolio {
+        width: 90%;
+        height: 640px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        margin: auto;
+        margin-bottom: 40px;
+        float: none;
+        
+    }
+    
+    .portfolio #connect {
+        float: none;
+        width: 97%;
+        margin-left:15px;
+        padding: 0;
+        margin: auto;
+        
+    }
+    
+    .portfolio section h1 {
+        width: 150px;
+    }
+    
+    /* FIRST ROW PROJECTS */
+    .portfolio #first .project001 {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .portfolio #first .project001 img {
+        width: 278px;
+        height: 155px;
+    }
+    
+    .portfolio #first .project001 h2 {
+        top: 111px;
+        width: 100%;
+    }
+    
+    .portfolio #first .project002 img {
+        width: 279px;
+        height: 154px;
+    }
+    
+    /* END FIRST ROW PROJECTS */
     
     
     
+    /* SECOND ROW PROJECTS*/
+    
+    .portfolio #second .project001 {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .portfolio #second .project001 img {
+        width: 278px;
+        height: 155px;
+    }
+    
+    .portfolio #second .project001 h2 {
+        top: 111px;
+        width: 100%;
+    }
+    
+    .portfolio #second .project002 img {
+        width: 279px;
+        height: 154px;
+    }
+    
+    /* END SECOND ROW PROJECTS */
     
     
+    /* THIRD ROW PROJECTS */
     
-    /* END profile.html */
+    .portfolio #third .project001 {
+        margin-left: 20px;
+        margin-bottom: 15px;
+    }
+    
+    .portfolio #third .project001 img {
+        width: 278px;
+        height: 155px;
+    }
+    
+    .portfolio #third .project001 h2 {
+        top: 111px;
+        width: 100%;
+    }
+    
+    .portfolio #third .project002 img {
+        width: 279px;
+        height: 154px;
+    }
+    
+    /* END THIRD ROW PROJECTS */
     
 }
 
@@ -1032,7 +1593,50 @@ footer {
     
     /* contact.html */
     
+    .contact #contact {
+        width: 85%;
+        height: 540px;
+        padding-right: 50px;
+        padding-bottom: 50px;
+        float: none;
+        margin-bottom: 40px;
     
+    }
+    
+    .contact section hr {
+        width: 95%;
+        height: 2px;
+        margin-bottom: 20px;
+        margin-left: 8%;
+    }
+    
+    .contact section h1 {
+        width: 150px;
+        padding-bottom: 0;
+        margin-bottom: 20px;
+        margin-left: 5%;
+    }
+    
+    .contact form {
+        width: 95%;
+        padding-left: 20px;
+        margin-left: 4%;
+    }
+    
+    .contact input[type=text], input[type=email], textarea {
+        width: 100%;
+        padding: 12px;
+        margin-top: 6px;
+        margin-bottom: 16px;
+    }
+    
+    .contact #connect {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin: auto;
+        
+    }
     
     
     
@@ -1040,14 +1644,166 @@ footer {
     
     /* ************************************************************************************************ */
     
-    /* profile.html*/
+    /* portfolio.html*/
+    .portfolio #container{
+        height: 1860px;
+    }
+    
+    .portfolio #links {
+        width: 100%;
+    }
+    .portfolio #links li{
+        right: 65px;
+    }
+    
+    .portfolio  #portfolio {
+        width: 90%;
+        height: 1610px;
+        padding-right: 50px;
+        padding-bottom: 20px;
+        margin-bottom: 40px;
+        float: none;
+    }
+    
+    .portfolio section h1 {
+        width: 150px;
+    }
+    
+    /* First ROW PROJECTS*/
+    
+    .portfolio #first .project001 {
+        margin-left: 20px;
+        margin-bottom: 15px;
+        float: none;
+        width: 100%;
+    }
+    
+    .portfolio #first .project001 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #first .project001 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    
+    .portfolio #first .project002 {
+        width: 100%;
+        float: none;
+        margin-left: 20px;
+        
+    }
+    
+    .portfolio #first .project002 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #first .project002 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    
+    /* END FIRST ROW PROJECTS */
+    
+    
+    
+    /* SECOND ROW PROJECTS*/
+    
+    .portfolio #second .project001 {
+        margin-left: 20px;
+        margin-bottom: 15px;
+        float: none;
+        width: 100%;
+    }
+    
+    .portfolio #second .project001 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #second .project001 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    
+    .portfolio #second .project002 {
+        width: 100%;
+        float: none;
+        margin-left: 20px;
+        
+    }
+    
+    .portfolio #second .project002 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #second .project002 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    /* END SECOND ROW PROJECTS */
+    
+    
+    /* THIRD ROW PROJECTS */
+    
+    .portfolio #third .project001 {
+        margin-left: 20px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+        float: none;
+        width: 100%;
+    }
+    
+    .portfolio #third .project001 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #third .project001 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    
+    .portfolio #third .project002 {
+        width: 100%;
+        float: none;
+        margin-left: 20px;
+        
+    }
+    
+    .portfolio #third .project002 img {
+        width: 100%;
+        height: 280px;
+    }
+    
+    .portfolio #third .project002 h2 {
+        top: 200px;
+        width: 100%;
+        height: 35px;
+        padding-top: 10px;
+    }
+    
+    /* END THIRD ROW PROJECTS */
     
     
     
     
     
     
-    /* END profile.html */
+    /* END porfolio.html */
     
 }
 

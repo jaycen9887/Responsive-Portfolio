@@ -11,7 +11,7 @@
     </head>
     
     <body class="portfolio"> 
-        <div id="container">
+        
             <header> 
                 <h1 id="name"> Jaycen Milling </h1>
                 <div id="links"> 
@@ -22,40 +22,37 @@
                     </ul>
                 </div> <!-- END LINKS -->
             </header>
-            <div id="portfolio">
-                <section>
-                <h1>Portfolio</h1>
-                    <hr>
-                    <div id="first">
-                        <div class="project001">
-                            <a href="https://github.com/jaycen9887/JS_Drum_Kit_Final" target="_blank"><img src="images/Project001.PNG" alt=""></a>
-                            <h2> Project 001</h2>
-                        </div>    
-                        <div class="project002">
-                            <a href="https://github.com/jaycen9887/JS_Drum_Kit_Final" target="_blank"><img src="images/Project001.PNG" alt=""></a>
-                            <h2> Project 002</h2>
-                        </div> 
-                    </div>
-                    
-                    <div id="second">
-                        <div class="project001">
-                            <a href="https://github.com/jaycen9887/JS_Drum_Kit_Final" target="_blank"><img src="images/Project001.PNG" alt=""></a>
-                            <h2> Project 003</h2>
-                        </div>    
-                        <div class="project002">
-                            <a href="https://github.com/jaycen9887/JS_Drum_Kit_Final" target="_blank"><img src="images/Project001.PNG" alt=""></a>
-                            <h2> Project 004</h2>
-                        </div> 
-                    </div>
-                    <div id="third">
-                        <div class="project001">
-                            <a href="https://github.com/jaycen9887/JS_Drum_Kit_Final" target="_blank"><img src="images/Project001.PNG" alt=""></a>
-                            <h2> Project 005</h2>
-                        </div>    
-                        <div class="project002">
-                            <a href="https://github.com/jaycen9887/JS_Drum_Kit_Final" target="_blank"><img src="images/Project001.PNG" alt=""></a>
-                            <h2> Project 006</h2>
-                        </div> 
+            <div id="container">
+                <div id="portfolio">
+                    <section>
+                    <h1>Portfolio</h1>
+                        <hr>
+                        <div id="first">
+                            <div class="project001">
+                                <a href="https://github.com/jaycen9887/JS_Drum_Kit_Final" target="_blank"><img src="images/Project001.PNG" alt=""></a>
+                                <h2> Project 001</h2>
+                            </div>    
+                            <div class="project002">
+                                <a href="https://github.com/jaycen9887/JS_Drum_Kit_Final" target="_blank"><img src="images/Project001.PNG" alt=""></a>
+                                <h2> Project 002</h2>
+                            </div> 
+                        </div>
+
+                        <div id="second">
+                            <div class="project001">
+                                <a href="https://github.com/jaycen9887/JS_Drum_Kit_Final" target="_blank"><img src="images/Project001.PNG" alt=""></a>
+                                <h2> Project 003</h2>
+                            </div>    
+                            <div class="project002">
+                                <a href="https://github.com/jaycen9887/JS_Drum_Kit_Final" target="_blank"><img src="images/Project001.PNG" alt=""></a>
+                                <h2> Project 004</h2>
+                            </div> 
+                        </div>
+                        <div id="third">
+                            <div class="project001">
+                                <a href="https://github.com/jaycen9887/JS_Drum_Kit_Final" target="_blank"><img src="images/Project001.PNG" alt=""></a>
+                                <h2> Project 005</h2>
+                            </div>    
                     </div>
                     
                 </section>
@@ -72,5 +69,16 @@
         
         </div>
         <footer> &copy; Copyright 2017 Jaycen Milling</footer>
+        
+        <script type="text/javascript">
+            function getWindowSize() {
+                var d = document , root = d.documentElement, body = d.body;
+                var wid = window.innerWidth || root.clientWidth || body.clientWidth, hi = window.innerHeight || root.clientHeight || body.clientHeight;
+                return [wid, hi];
+            }
+            
+            console.log(getWindowSize());
+        
+        </script>
     </body>
 </html>
